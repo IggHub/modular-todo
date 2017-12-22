@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo</title>
+  <%= stylesheet_link_tag    "todo/application", media: "all" %>
+
+  <%= stylesheet_link_tag "todo/normalize.css" %>
+  <%= stylesheet_link_tag "todo/skeleton.css" %>
+
+  <%= javascript_include_tag "todo/application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
